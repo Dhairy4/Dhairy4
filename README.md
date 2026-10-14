@@ -1,121 +1,42 @@
-<h1 align="center">Dhairya</h1>
+# Dhairya Mehta
 
-<p align="center">
-  <i>AI/ML student · Building AI systems and learning how they work</i>
-</p>
+**AI/ML Engineer in progress · LLM applications · RAG · AI agents**
 
-<p align="center">
-  <a href="#about">About</a> ·
-  <a href="#projects">Projects</a> ·
-  <a href="#stack">Stack</a> ·
-  <a href="#currently">Currently</a> ·
-  <a href="#connect">Connect</a>
-</p>
+I build practical AI systems and explore how they work under the hood—from document ingestion and retrieval to agent workflows, APIs, and backend infrastructure. I'm a BTech student specializing in AI/ML and a co-founder of **Ad Meliora**, where we work on custom AI solutions and business automation.
 
----
+## Featured projects
 
-## About
+### [Enterprise Agentic RAG](https://github.com/Dhairy4/Production_Scalable_rag)
+A FastAPI service for answering questions over a private document collection. The workflow combines document ingestion, embeddings, Qdrant retrieval, FlashRank reranking, and LangGraph orchestration, with model access through Portkey/Groq and optional tracing.
 
-I'm a third-year BTech student studying AI and ML.
+**Focus:** RAG pipelines · agent orchestration · vector search · reranking · API design
 
-I like building AI systems and understanding what happens behind the API call. Most of what I'm working on right now is around RAG, LLM applications, backend systems, evaluation, observability, and fine-tuning.
+### [Sovereign AI Workbench — Hackathon Prototype](https://github.com/Dhairy4/sih-26117)
+A local-first AI workbench prototype for technical-document question answering. Its demo workflow covers document ingestion, retrieval with citations, tool-using agent steps, approval-gated report generation, and audit-trail verification.
 
-I'm also learning by building things and sharing what I learn along the way. Not everything here is finished — some projects are experiments, some are works in progress, and some are things I'm still trying to understand.
+**Focus:** Local-first AI · RAG · human approval gates · auditability · multi-service backend
 
-Alongside my studies, I'm a co-founder of **Ad Meliora**, an AI consultancy and automation services company where we build custom AI and automation solutions for businesses.
+### [AI-Powered Paper Grading](https://github.com/Dhairy4/Paper-checker)
+An application prototype for assignment submission and AI-assisted grading, with separate student and teacher workflows, PDF handling, and a multi-stage grading pipeline using Gemini.
 
----
+**Focus:** Applied LLMs · document processing · web APIs · human review
 
-## Projects
+## Currently building
 
-<!-- Add projects here -->
+- [Coding Assistant](https://github.com/Dhairy4/coding_assistant) — experimenting with a tool-using coding agent, sandboxed execution, and agent-loop design.
+- [Hybrid RAG](https://github.com/Dhairy4/Hybrid_RAG) — developing document ingestion and retrieval components; this is a work in progress, not a finished release.
 
-#### [Project name]
+## Technical focus
 
-[What it does and why you built it]
+- **LLM applications:** RAG, embeddings, retrieval, reranking, LangChain, LangGraph
+- **Backend and data:** Python, FastAPI, Qdrant, PostgreSQL, MongoDB, REST APIs
+- **Engineering:** Docker, environment-based configuration, testing, observability
+- **Product development:** React, TypeScript, JavaScript
 
-**Stack:** `Python` `...` &nbsp; | &nbsp; **Status:** `...` &nbsp; | &nbsp; **Repo:** [link]
+## How I approach projects
 
----
-
-#### [Project name]
-
-[What it does and why you built it]
-
-**Stack:** `Python` `...` &nbsp; | &nbsp; **Status:** `...` &nbsp; | &nbsp; **Repo:** [link]
+I aim to make AI projects reproducible and inspectable: clear setup steps, documented architecture, meaningful tests, sensible secret handling, and honest notes about limitations. I’m especially interested in retrieval quality, evaluation, agent reliability, and shipping AI systems that solve real problems.
 
 ---
 
-#### [Project name]
-
-[What it does and why you built it]
-
-**Stack:** `Python` `...` &nbsp; | &nbsp; **Status:** `...` &nbsp; | &nbsp; **Repo:** [link]
-
----
-
-## Stack
-
-### Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-### AI / ML
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Unsloth](https://img.shields.io/badge/Unsloth-000000?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-6A5ACD?style=flat-square)
-![Fine-tuning](https://img.shields.io/badge/Fine--tuning-6A5ACD?style=flat-square)
-
-### Data / Search
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
-
-### Backend / Web
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-### AI Engineering
-
-![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=flat-square)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-
----
-
-## Currently
-
-- Building a coding agent to understand how coding assistants are put together
-- Going deeper into RAG and retrieval systems
-- Learning how to evaluate and monitor LLM applications
-- Experimenting with fine-tuning and open-source models
-- Building backend systems around AI applications
-- Trying to ship more of what I learn instead of keeping everything on my machine
-
----
-
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](your-linkedin-link)
-[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](your-x-link)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](your-youtube-link)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](your-instagram-link)
-
----
-
-<p align="center">
-  <sub>Co-founder, <b>Ad Meliora</b></sub>
-</p>
+*Some repositories are experiments or prototypes. Check each project’s README for its current state and setup instructions.*
