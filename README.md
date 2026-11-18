@@ -2,7 +2,7 @@
 
 **AI/ML Engineer in progress · LLM applications · RAG · AI agents**
 
-I build practical AI systems and explore how they work under the hood—from document ingestion and retrieval to tool-using agents, APIs, and backend infrastructure. I'm a BTech student specializing in AI/ML and a co-founder of **[Ad Meliora](https://github.com/Dhairy4/ad-meliora-cms)**, where we work on custom AI solutions and business automation.
+I build practical AI systems and explore how they work under the hood—from document ingestion and retrieval to tool-using agents, APIs, and backend infrastructure. I'm a BTech student specializing in AI/ML and a co-founder of **Ad Meliora**, where we work on custom AI solutions and business automation.
 
 ## What I build
 
@@ -49,7 +49,6 @@ I aim to make AI projects reproducible and inspectable: clear setup steps, docum
 ## Connect
 
 - GitHub: [@Dhairy4](https://github.com/Dhairy4)
-- Portfolio: [Dhairya Mehta](https://github.com/Dhairy4/Portfolio)
 
 ---
 
